@@ -1,0 +1,46 @@
+// typography
+
+html {
+    font-size: $font-size-base;
+    font-family: $font-family-base;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: $color-font-red;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: $color-font-h2;
+}
+
+p {
+    font-size: $font-size-paragraph;
+    font-family: $font-family-paragraph;
+}
+
+
+
+// base style
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 0 auto;
+    //max-width: 1280px;
+}
+
+.container {
+    width: $width-mobile-container;
+    margin: 0 auto;
+    @media screen and (min-width: map-get($breakpoints, sm)) {
+        width: $width-desktop-container;
+        max-width: $max-width-container;
+    }
+}

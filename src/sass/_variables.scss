@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Roboto:300,400&display=swap&subset=latin-ext');
+
+$font-family-base: 'Montserrat', sans-serif;
+$font-family-paragraph: 'Roboto', sans-serif;
+
+$font-size-base: 16px;
+$font-size-paragraph: 12px;
+
+$width-mobile-container: 90%;
+$width-desktop-container: 75%;
+$max-width-container: 960px;
+
+$color-font-red: #fe5a5d;
+$color-font-h2: #2e3c40;
+$color-hamburger: #423a44;
+$color-border: #475357;
+
+$bgc-hero: #ecf1f5;
+$bgc-contact: #2d3b3f;
+$bgc-footer: #232f32;
+
+$breakpoints: (
+    xs: 360px,
+    sm: 680px,
+    md: 1024px,
+    lg: 1280px,
+)
