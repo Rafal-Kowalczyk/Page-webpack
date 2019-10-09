@@ -8,8 +8,8 @@ module.exports = {
     },
     mode: 'development',
     output: {
-        path: path.resolve(__dirname, 'dist'),
         filename:'js/[name].js',
+        path: path.resolve(__dirname, 'build'),
         publicPath: '/'
      },
      devServer: {
@@ -28,8 +28,8 @@ module.exports = {
                 use: ['style-loader', 'css-loader', 'sass-loader']
             },
             {
-                test: /\.(jpg|jpeg|png|gif|svg)$/,
-                use: 'file-loader'
+                test: /\.(jpg|png|svg|gif|jpeg)$/,
+                use: 'file-loader',
             },
             {
                 test: /\.js$/,
