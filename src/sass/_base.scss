@@ -6,9 +6,10 @@ html {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 800;
     color: $color-font-red;
+    line-height: 3rem;
 }
 
 h2 {
@@ -20,6 +21,7 @@ h2 {
 p {
     font-size: $font-size-paragraph;
     font-family: $font-family-paragraph;
+    line-height: $line-height-paragraph;
 }
 
 
@@ -33,7 +35,6 @@ p {
 
 .main {
     margin: 0 auto;
-    //max-width: 1280px;
 }
 
 .container {

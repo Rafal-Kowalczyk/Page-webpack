@@ -6,10 +6,15 @@ $font-family-paragraph: 'Roboto', sans-serif;
 $font-size-base: 16px;
 $font-size-paragraph: 12px;
 
+$line-height-paragraph: 1.2rem;
+
+$margin-right-hero: 25%;
+
 $width-mobile-container: 90%;
 $width-desktop-container: 75%;
 $max-width-container: 960px;
 
+$color-white: #fef4f8;
 $color-font-red: #fe5a5d;
 $color-font-h2: #2e3c40;
 $color-hamburger: #423a44;
@@ -18,6 +23,10 @@ $color-border: #475357;
 $bgc-hero: #ecf1f5;
 $bgc-contact: #2d3b3f;
 $bgc-footer: #232f32;
+
+$border-menu: 1px solid rgba($color-border, 0.2);
+
+$easing: cubic-bezier(.6, .05, .28, .91);
 
 $breakpoints: (
     xs: 360px,
