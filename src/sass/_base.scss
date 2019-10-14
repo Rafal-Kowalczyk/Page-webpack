@@ -6,15 +6,16 @@ html {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.2em;
     font-weight: 800;
+    line-height: $line-height-h1;
     color: $color-font-red;
-    line-height: 3rem;
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 1.8em;
     font-weight: 800;
+    line-height: $line-height-h2;
     color: $color-font-h2;
 }
 
@@ -23,7 +24,6 @@ p {
     font-family: $font-family-paragraph;
     line-height: $line-height-paragraph;
 }
-
 
 
 // base style
