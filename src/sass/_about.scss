@@ -1,0 +1,25 @@
+.about {
+    .section-wrapper {
+        .section-content__title {
+            text-transform: uppercase;
+        }
+        .about-desc {
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h2 {
+            text-align: center;
+            //font-size: 2.5em;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            }
+            p {
+               // font-size: 1em;
+                text-align: justify;
+            }
+        }
+    }
+}

@@ -1,120 +1,119 @@
 
-.services-wrapper {
+.section-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    .services-content {
+    margin-top: 60px;
+    .section-content {
         position: relative;
         top: 0;
-        z-index: -1;        
+        z-index: -1;
         margin: 0 auto;
-        margin-top: 40px;
-        margin-bottom: 40px;               
-        .services-title {
+        padding-bottom: 40px;
+        .section-content__title {
             position: absolute;
             top: 20%;
-            z-index: 2;           
+            z-index: 2;
         }
-        .services__img {
-            width: 60%;
+        .section-content__img {
+            width: 50%;
             height: auto;
             background-size: cover;
-            opacity: 0.7;   
-            margin-bottom: 20px;        
-        }
-        .services__paragraph {
+            opacity: 0.7;
             margin-bottom: 20px;
-        }       
+        }
+        .section-content__paragraph {
+            margin-bottom: 20px;
+        }
     }
-    .services-content--box2 {
-        margin-top: 0;
+    .section-content--box2 {
         text-align: right;
-    } 
-    .services-title--box1 {
+    }
+    .section-content__title--box1 {
         right: 0;
         text-align: right;
     }
-    .services-title--box2 {
+    .section-content__title--box2 {
         left: 0;
-    }       
+    }
 }
 
 @media (min-width: map-get($breakpoints, sm)) {
-    .services-wrapper {
+    .section-wrapper {
         justify-content: space-between;
-        .services-content {
+        margin-top: 80px;
+        .section-content {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: 1fr;
             grid-column-gap: 4%;
-            margin-top: 50px;
-            margin-bottom: 50px;
-            .services-title {
+            padding-bottom: 60px;
+            .section-content__title {
                 margin: 0;
                 position: absolute;
                 top: 30%;
                 transform: translateY(-50%);
                 z-index: 2;
-                span {                
+                span {
                     font-size: 2.8em;
                 }
             }
-            .services__img {
-                width: 100%;          
-            }    
-            .services__paragraph {
+            .section-content__img {
+                width: 100%;
+            }
+            .section-content__paragraph {
                 display: flex;
                 align-items: flex-end;
                 margin-bottom: 10px;
-                 font-size: 0.8em;
+                font-size: 0.8em;
             }
         }
-        .services-content--box2 {
+        .section-content--box2 {
             margin-top: 0;
         }
-         .services-title--box2 {
+         .section-content__title--box2 {
             transform: translateY(-50%);
-        }        
-        .services__img--box2 {
+        }
+        .section-content__img--box2 {
             grid-column: 2/3;
         }
-        .services__paragraph--box2 {
+        .section-content__paragraph--box2 {
             grid-column: 1/2;
             grid-row: 1/1;
         }
     }
 }
 
-@media (min-width: map-get($breakpoints, md)) { 
-    .services-wrapper {
-        .services-content {
-            margin-top: 60px;
-            margin-bottom: 60px;
-            .services-title span {
+@media (min-width: map-get($breakpoints, md)) {
+    .section-wrapper {
+        margin-top: 100px;
+        .section-content {
+           padding-bottom: 80px;
+            .section-content__title span {
                 font-size: 3.8em;
             }
-            .services__paragraph {
+            .section-content__paragraph {
                 font-size: 1em;
-            }  
-        }  
-        .services-content--box2 {
+            }
+        }
+        .section-content--box2 {
             margin-top: 0;
-        }  
-    }        
-}  
-@media (min-width: map-get($breakpoints, lg)) {  
-    .services-wrapper {
-        .services-content {
-            .services-title span {
+        }
+    }
+}
+@media (min-width: map-get($breakpoints, lg)) {
+    .section-wrapper {
+        .section-content {
+            .section-content__title span {
                 font-size: 4.8em;
             }
-            .services__paragraph {
+            .section-content__paragraph {
                 font-size: 1.1em;
-            }  
-        }  
-        .services-content--box2 {
+            }
+        }
+        .section-content--box2 {
             margin-top: 0;
-        }  
-    }     
-}    
+        }
+    }
+}
