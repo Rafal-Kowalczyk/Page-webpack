@@ -136,18 +136,30 @@
         margin-left: 10px;
         margin-bottom: 40px;
         margin-right: $margin-right-hero;
+        text-transform: uppercase;
         @media (min-width: map-get($breakpoints, sm)) {
-            font-size: 4em;
+            font-size: 3.6em;
             line-height: 1em;
             margin-left: 25px;
         }
-
+        @media (min-width: map-get($breakpoints, md)) {
+            font-size: 4.1em;            
+        }
+        @media (min-width: map-get($breakpoints, lg)) {
+            font-size: 4.6em;
+        }
     }
     &__paragraph {
         margin-right: $margin-right-hero;
         margin-left: 10px;
         @media (min-width: map-get($breakpoints, sm)) {
             margin-left: 25px;
+        }
+        @media (min-width: map-get($breakpoints, md)) {
+            font-size: 0.8em;            
+        }
+        @media (min-width: map-get($breakpoints, lg)) {
+            font-size: 1em;
         }
     }
 }
