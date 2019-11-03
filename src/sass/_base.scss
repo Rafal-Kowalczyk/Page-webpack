@@ -1,54 +1,53 @@
 // typography
 
 html {
-    font-size: $font-size-base;
-    font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-family: $font-family-base;
 }
 
 h1 {
-    font-size: $font-size-h1;
-    font-weight: $font-weight-eBold;
-    line-height: $line-height-h1;
-    color: $color-font-red;
+  font-size: $font-size-h1;
+  font-weight: $font-weight-eBold;
+  line-height: $line-height-h1;
+  color: $color-font-red;
 }
 
 h2 {
-    font-size: $font-size-h2;
-    font-weight: $font-weight-eBold;
-    line-height: $line-height-h2;
-    color: $color-font-h2;
+  font-size: $font-size-h2;
+  font-weight: $font-weight-eBold;
+  line-height: $line-height-h2;
+  color: $color-font-h2;
 }
 
 p {
-    font-size: $font-size-paragraph;
-    font-family: $font-family-paragraph;
-    line-height: $line-height-paragraph;
+  font-size: $font-size-paragraph;
+  font-family: $font-family-paragraph;
+  line-height: $line-height-paragraph;
 }
 
 span {
-    font-size: $font-size-span;
-    font-weight: $font-weight-eBold;
-    color: $color-font-red;
-    line-height: $line-height-span;
+  font-size: $font-size-span;
+  font-weight: $font-weight-eBold;
+  color: $color-font-red;
+  line-height: $line-height-span;
 }
-
 
 // base style
 *,
 *:before,
 *:after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .main {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .container {
-    width: $width-mobile-container;
-    margin: 0 auto;
-    @media screen and (min-width: map-get($breakpoints, sm)) {
-        width: $width-desktop-container;
-        max-width: $max-width-container;
-    }
+  width: $width-mobile-container;
+  margin: 0 auto;
+  @media screen and (min-width: map-get($breakpoints, sm)) {
+    width: $width-desktop-container;
+    max-width: $max-width-container;
+  }
 }

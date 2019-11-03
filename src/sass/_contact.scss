@@ -1,36 +1,36 @@
 .contact {
-    width: 100%;
-    background-color: $bgc-contact;
+  width: 100%;
+  background-color: $bgc-contact;
 
-    &__wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 50px 0;
-        color: $color-white;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0;
+    color: $color-white;
 
-        @media (min-width: map-get($breakpoints, sm)) {
-            padding: 100px 0;
-        }
-
-        .contact__title {
-            color: $color-white;
-            text-indent: 15px;
-            margin-bottom: 10px;
-
-            @media (min-width: map-get($breakpoints, sm)) {
-                font-size: 3em;
-                text-indent: 20px;
-            }
-        }
-
-        .contact-mail {
-            margin-top: 20px;
-
-            @media (min-width: map-get($breakpoints, sm)) {
-                font-size: 3em;
-                text-indent: 40px;
-            }
-        }
+    @media (min-width: map-get($breakpoints, sm)) {
+      padding: 100px 0;
     }
+
+    .contact__title {
+      color: $color-white;
+      text-indent: 15px;
+      margin-bottom: 10px;
+
+      @media (min-width: map-get($breakpoints, sm)) {
+        font-size: 3em;
+        text-indent: 20px;
+      }
+    }
+
+    .contact-mail {
+      margin-top: 20px;
+
+      @media (min-width: map-get($breakpoints, sm)) {
+        font-size: 3em;
+        text-indent: 40px;
+      }
+    }
+  }
 }
