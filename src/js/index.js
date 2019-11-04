@@ -3,10 +3,12 @@ import $ from 'jquery';
 
 
 // scroll top page
-$('.arrow-top__img').click(function () {
-    $('body,html').animate({
-        scrollTop: 0
-    }, 600);
+$(function() {
+    $('.arrow-top__img').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 600);
+    });
 });
 
 // sidebar
