@@ -1,6 +1,7 @@
 .portfolio {
   margin: 0 auto;
   width: 100%;
+  background-color: $bgc-hero;
 
   &__wrapper {
     display: grid;
@@ -12,11 +13,23 @@
       grid-template-columns: repeat(3, 1fr);
     }
 
-    .portfolio__img {
-      width: 100%;
-      height: auto;
-      background-position: center;
-      opacity: 0.8;
+    .portfolio__box {
+      position: relative;
+      margin: auto;
+      overflow: hidden;
+
+      .portfolio__img {
+        display: block;
+        width: 100%;
+        height: auto;
+        background-position: center;
+        opacity: 0.8;
+        transition: .3s ease-in-out;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
     }
   }
 }
