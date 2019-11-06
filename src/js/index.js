@@ -2,8 +2,8 @@ import '../sass/style.scss';
 import $ from 'jquery';
 
 
-// scroll top page
-$(function() {
+// Scroll top page
+$(function () {
     $('.arrow-top__img').click(function () {
         $('body,html').animate({
             scrollTop: 0
@@ -11,7 +11,7 @@ $(function() {
     });
 });
 
-// sidebar
+// Sidebar
 const sidebarBtn = document.querySelector('#menu-hamburger'),
     sidebarBox = document.querySelector('#menu-content');
 

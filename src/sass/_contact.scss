@@ -4,11 +4,13 @@
 
   .arrow-top {
     position: relative;
+
     .arrow-top__img {
       width: 10px;
       position: absolute;
       top: 20px;
       right: 10%;
+
       @media (min-width: map-get($breakpoints, sm)) {
         width: 15px;
         top: 40px;

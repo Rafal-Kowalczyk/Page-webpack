@@ -1,5 +1,6 @@
 .about {
   margin-bottom: 40px;
+
   .section-wrapper {
     .section-content__title {
       text-transform: uppercase;
@@ -30,6 +31,7 @@
       p {
         text-align: justify;
         text-indent: 10px;
+
         @media (min-width: map-get($breakpoints, sm)) {
           font-size: 0.9em;
         }

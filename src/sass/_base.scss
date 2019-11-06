@@ -46,6 +46,7 @@ span {
 .container {
   width: $width-mobile-container;
   margin: 0 auto;
+
   @media screen and (min-width: map-get($breakpoints, sm)) {
     width: $width-desktop-container;
     max-width: $max-width-container;

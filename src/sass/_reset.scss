@@ -123,6 +123,7 @@ q {
 }
 
 blockquote {
+
   &:before,
   &:after {
     content: "";
@@ -131,6 +132,7 @@ blockquote {
 }
 
 q {
+
   &:before,
   &:after {
     content: "";

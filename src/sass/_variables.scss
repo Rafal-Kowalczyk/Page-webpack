@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,800|Roboto:300,400&display=swap&subset=latin-ext");
 
-$font-family-base: "Montserrat", sans-serif;
-$font-family-paragraph: "Roboto", sans-serif;
+$font-family-base: "Montserrat",
+sans-serif;
+$font-family-paragraph: "Roboto",
+sans-serif;
 
 $font-size-base: 16px;
 $font-size-paragraph: 12px;
@@ -37,9 +39,7 @@ $border-menu: 1px solid rgba($color-border, 0.2);
 
 $easing: cubic-bezier(0.6, 0.05, 0.28, 0.91);
 
-$breakpoints: (
-  xs: 360px,
+$breakpoints: (xs: 360px,
   sm: 680px,
   md: 1024px,
-  lg: 1280px
-);
+  lg: 1280px);
