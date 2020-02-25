@@ -5,6 +5,7 @@ const {
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+const ImageminPlugin = require('imagemin-webpack-plugin').default
 
 module.exports = {
     entry: {
@@ -80,6 +81,12 @@ module.exports = {
                 from: 'public/images',
                 to: 'images'
             }]
-        )
+        ),
+        new ImageminPlugin({
+            test: /\.(jpe?g|png|gif|svg)$/i,
+            pngquant: {
+                quality: '50-75'
+              }
+        })
     ]
 };
